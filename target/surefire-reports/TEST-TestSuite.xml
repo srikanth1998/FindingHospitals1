@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="9" failures="0" name="TestSuite" time="80.326" errors="0" skipped="0">
+  <properties>
+    <property name="DISPLAY" value="needs-to-be-defined"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="MINGW_CHOST" value="x86_64-w64-mingw32"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-AOMEI0O"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="ACLOCAL_PATH" value="C:\Program Files\Git\mingw64\share\aclocal;C:\Program Files\Git\usr\share\aclocal"/>
+    <property name="MSYSTEM" value="MINGW64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="E:/jenkins"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="TERM_PROGRAM_VERSION" value="3.4.7"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="PSModulePath" value="%ProgramFiles%\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="DESKTOP-AOMEI0O"/>
+    <property name="ORIGINAL_PATH" value="C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\welcome\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.10\bin;E:\jenkins\apache-maven-3.8.1\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;D:\Scripts;D:\;C:\Users\welcome\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;C:\Users\welcome\AppData\Local\atom\bin;C:\Users\welcome\AppData\Local\GitHubDesktop\bin"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="PKG_CONFIG_PATH" value="C:\Program Files\Git\mingw64\lib\pkgconfig;C:\Program Files\Git\mingw64\share\pkgconfig"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="JOB_NAME" value="FindingHospital"/>
+    <property name="COMPUTERNAME" value="DESKTOP-AOMEI0O"/>
+    <property name="SYSTEMDRIVE" value="C:"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="CONFIG_SITE" value="C:/Program Files/Git/etc/config.site"/>
+    <property name="user.name" value="welcome"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="LC_CTYPE" value="en_US.UTF-8"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 10, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\welcome\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/FindingHospital/2/display/redirect?page=changes"/>
+    <property name="MSYSTEM_CARCH" value="x86_64"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="INFOPATH" value="C:\Program Files\Git\usr\local\info;C:\Program Files\Git\usr\share\info;C:\Program Files\Git\usr\info;C:\Program Files\Git\share\info"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="BUILD_TAG" value="jenkins-FindingHospital-2"/>
+    <property name="TERM" value="xterm"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="PATH" value="C:\Program Files\Java\jdk-11.0.10/bin;C:\Users\welcome\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\welcome\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.10\bin;E:\jenkins\apache-maven-3.8.1\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;D:\Scripts;D:\;C:\Users\welcome\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;C:\Users\welcome\AppData\Local\atom\bin;C:\Users\welcome\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\jenkins\apache-maven-3.8.1 C:\Users\welcome\.jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Users\welcome\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\welcome\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61150"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="5e85c899861701bb"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="PLINK_PROTOCOL" value="ssh"/>
+    <property name="MANPATH" value="C:\Program Files\Git\mingw64\local\man;C:\Program Files\Git\mingw64\share\man;C:\Program Files\Git\usr\local\man;C:\Program Files\Git\usr\share\man;C:\Program Files\Git\usr\man;C:\Program Files\Git\share\man"/>
+    <property name="java.io.tmpdir" value="C:\Users\welcome\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\welcome\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="SYSTEMROOT" value="C:\Windows"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/FindingHospital/2/"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="E:\jenkins\apache-maven-3.8.1"/>
+    <property name="COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="5e85c899861701bb"/>
+    <property name="PS1" value="\[\033]0;$TITLEPREFIX:E:/jenkins\007\]\n\[\033[32m\]\u@\h \[\033[35m\]MINGW64 \[\033[33m\]\w\[\033[36m\]`__git_ps1`\[\033[0m\]\n$ "/>
+    <property name="WORKSPACE_TMP" value="C:\Users\welcome\.jenkins\workspace\FindingHospital@tmp"/>
+    <property name="MAVEN_HOME" value="E:\jenkins\apache-maven-3.8.1"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="maven3.interceptor.common" value="C:\Users\welcome\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="ORIGINAL_TEMP" value="C:/Users/welcome/AppData/Local/Temp"/>
+    <property name="PyCharm Community Edition" value="C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;"/>
+    <property name="HOMEPATH" value="\Users\welcome"/>
+    <property name="TMPDIR" value="C:\Users\welcome\AppData\Local\Temp"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven3.interceptor" value="C:\Users\welcome\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\jenkins\apache-maven-3.8.1/bin;C:\Program Files\Java\jdk-11.0.10/bin;C:\Program Files\Java\jdk-11.0.10/bin;C:\Users\welcome\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\welcome\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11.0.10\bin;E:\jenkins\apache-maven-3.8.1\bin;C:\Program Files\Git\usr\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin;D:\Scripts;D:\;C:\Users\welcome\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm Community Edition 2019.3.2\bin;C:\Users\welcome\AppData\Local\atom\bin;C:\Users\welcome\AppData\Local\GitHubDesktop\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="com.team"/>
+    <property name="POM_ARTIFACTID" value="findinghhospital"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/FindingHospital/"/>
+    <property name="GIT_HOME" value="C:\Program Files\Git"/>
+    <property name="OneDrive" value="C:\Users\welcome\OneDrive"/>
+    <property name="MINGW_PACKAGE_PREFIX" value="mingw-w64-x86_64"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/FindingHospital/2/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\welcome\.jenkins"/>
+    <property name="TEMP" value="C:\Users\welcome\AppData\Local\Temp"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
+    <property name="MSYSTEM_PREFIX" value="C:/Program Files/Git/mingw64"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HUDSON_HOME" value="C:\Users\welcome\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="E:\jenkins\apache-maven-3.8.1/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-AOMEI0O"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/FindingHospital/2/display/redirect?page=artifacts"/>
+    <property name="TERM_PROGRAM" value="mintty"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-11.0.10"/>
+    <property name="SHELL" value="C:\Program Files\Git\usr\bin\bash.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="PROGRAMFILES" value="C:\Program Files"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\welcome"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/FindingHospital/display/redirect"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\welcome"/>
+    <property name="USERNAME" value="welcome"/>
+    <property name="_" value="C:/Program Files/Java/jdk-11.0.10/bin/java"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\welcome\eclipse-workspace\FindingHospital1"/>
+    <property name="maven.conf" value="E:\jenkins\apache-maven-3.8.1\conf"/>
+    <property name="SSH_ASKPASS" value="C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\welcome\AppData\Local\Temp"/>
+    <property name="MINGW_PREFIX" value="C:/Program Files/Git/mingw64"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="java.class.path" value="C:\Users\welcome\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;E:\jenkins\apache-maven-3.8.1\boot\plexus-classworlds-2.6.0.jar;E:\jenkins\apache-maven-3.8.1/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\welcome\.jenkins\workspace\FindingHospital"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/FindingHospital/2/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-11.0.10/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="MSYSTEM_CHOST" value="x86_64-w64-mingw32"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="E:\jenkins\apache-maven-3.8.1"/>
+    <property name="EXEPATH" value="C:\Program Files\Git"/>
+    <property name="ORIGINAL_TMP" value="C:/Users/welcome/AppData/Local/Temp"/>
+    <property name="JOB_BASE_NAME" value="FindingHospital"/>
+    <property name="HOSTNAME" value="DESKTOP-AOMEI0O"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="HOME" value="C:\Users\welcome"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="WINDIR" value="C:\Windows"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="POM_DISPLAYNAME" value="findinghhospital"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest" name="scheduleDem1" time="3.008"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest" name="scheduleDemo2" time="8.256"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest" name="scheduleDemo3" time="7.629"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.CorporateWellnessPageTest" name="scheduleDemo4" time="3.497"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.DiagnosticPageTest" name="cityTest" time="7.307"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.LandingPageTest" name="cityTest" time="13.094"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.SearchFiltersTest" name="cityTest" time="33.128"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.URLTest" name="invalidURLTest" time="0.637"/>
+  <testcase classname="com.team.findinghospital.qa.testcases.URLTest" name="validURLTest" time="3.77"/>
+</testsuite>
